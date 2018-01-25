@@ -1,0 +1,15 @@
+html
+    head
+        title Another example of Jade
+    body(style="background-color:black;color:white;font-size:20px")
+        - var my_array = ["First", "Second", "Third"]
+        - each item in my_array
+            b
+                p= " --- " + item + " --- "
+            case item
+                when "First"
+                    p This is the first one !
+                when "Second"
+                    p Ok we have another one
+                default 
+                    p(style="color:green") This is just another item
