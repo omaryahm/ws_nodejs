@@ -1,5 +1,5 @@
 # nodejs workshop
-(NPM Required)
+(npm required)
 
 ### Init a folder 
 `$ npm init`
