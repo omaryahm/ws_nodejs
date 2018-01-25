@@ -1,10 +1,11 @@
-### nodejs workshop
+# nodejs workshop
 
-# Init a folder 
+### Init a folder 
 `$ npm init`
 
-# Install express
+### Install express
 `$ npm install express --save`
 
-# Install jade
+### Install jade
 `$ npm install jade --save`
+

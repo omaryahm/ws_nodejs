@@ -1,0 +1,11 @@
+extends ./layout.jade
+block my_content
+    form(action="/users", method="POST")
+        div(class="form-group")
+            label(for="username") User name:
+            input(type="text", name="username", placeholder="User name", class="form-control")
+        div(class="form-group")
+            label(for="password") Password: 
+            input(type="password", name="password", placeholder="Password", class="form-control")
+        input(type="submit", class="btn btn-primary", value="Log in")
+ 
